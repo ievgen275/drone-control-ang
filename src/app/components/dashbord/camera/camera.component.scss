@@ -1,0 +1,10 @@
+.camera-picture {
+    display: flex;
+    position: absolute;
+    background-color: hsl(0, 0%, 27%);
+    top: 100px;
+    left: 800px;
+    width: 1200px;
+    height: 550px;
+    z-index: 2;
+}

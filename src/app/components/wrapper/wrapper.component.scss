@@ -1,0 +1,54 @@
+.sidenav {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border-radius: 0px;
+    background: rgba(71, 212, 236, 0.5);
+  }
+
+  &-toolbar {
+    justify-content: center;
+    background: rgba(71, 211, 236, 0.5);
+  }
+
+  &-navig {
+    list-style-type: none;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin: 0;
+  }
+
+  &-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+  }
+
+  li {
+    margin-bottom: 20px
+  }
+}
+
+.toolbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0px;
+    background: rgba(71, 212, 236, 0.5);
+}
+
+.select-container {
+  width: 150px;
+  background-color: azure;
+  padding: 10px;
+  border-radius: 10px;
+}

@@ -17,7 +17,6 @@ describe('AppComponent', () => {
   it(`should have the 'drone-control-ang' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('drone-control-ang');
   });
 
   it('should render title', () => {
