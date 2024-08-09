@@ -2,22 +2,20 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NgxIndexedDBModule } from 'ngx-indexed-db';
 import { WrapperComponent } from './components/wrapper/wrapper.component';
-import { JoystickComponent } from './components/dashbord/joystick/joystick.component';
-import { InformationComponent } from './components/dashbord/information/information.component';
-import { MapsComponent } from './components/dashbord/maps/maps.component';
-import { CameraComponent } from './components/dashbord/camera/camera.component';
+import { DashboardsComponent } from './components/dashboards/dashboards.component';
+import { DroneListComponent } from './components/drone-list/drone-list.component';
+import { SettingsComponent } from './components/settings/settings.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    RouterOutlet, 
-    JoystickComponent, 
+    RouterOutlet,
     WrapperComponent, 
-    NgxIndexedDBModule, 
-    InformationComponent, 
-    MapsComponent, 
-    CameraComponent
+    NgxIndexedDBModule,
+    DashboardsComponent,
+    DroneListComponent,
+    SettingsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
