@@ -1,0 +1,65 @@
+.information-container {
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 100px;
+    left: 570px;
+    border-radius: 20px;
+    background-color: #aeababef;
+    z-index: 1;
+
+    .battery {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        left: 75px;
+    
+        width: 100px;
+        height: 25px;
+        border: 1px solid #555;
+        border-radius: 6px;
+    
+        padding: 5px;
+    }
+    
+    &-level {
+        height: 100%;
+        background: #51FCD0;
+    }
+
+    .battery-info {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
+
+    .gamepad-connection {
+        position: absolute;
+        top: 110px;
+        left: 10px
+    }
+
+    .radio-connection {
+        position: absolute;
+        top: 70px;
+        left: 10px
+    }
+
+    .diod {
+        position: absolute;
+        border-radius: 10px;
+        border: #555 solid 1px;
+        width: 10px;
+        height: 10px;
+        left: 175px;
+    }
+    
+    .gamepad-connection-diod {
+        top: 115px;
+    }
+    
+    .radio-connection-diod {
+        top: 75px;
+    }
+}

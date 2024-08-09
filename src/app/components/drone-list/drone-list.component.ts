@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './drone-list.component.scss'
 })
 export class DroneListComponent {
-
 }
